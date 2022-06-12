@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2022-06-12T18:11:49.006Z" agent="5.0 (Windows)" etag="bFwk1ZMJDrmF0N_h1CRX" version="20.0.0" type="github">
+  <diagram id="yQDdEbPtrPQwiZkuuEwM" name="Page-1">
+    <mxGraphModel dx="1421" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dc0kg1THhUlDwpH7CBld-1" value="FRONTEND" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc0kg1THhUlDwpH7CBld-2" value="BACKEND" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc0kg1THhUlDwpH7CBld-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dc0kg1THhUlDwpH7CBld-3" target="Dc0kg1THhUlDwpH7CBld-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc0kg1THhUlDwpH7CBld-3" value="Log-in page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc0kg1THhUlDwpH7CBld-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dc0kg1THhUlDwpH7CBld-4" target="Dc0kg1THhUlDwpH7CBld-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc0kg1THhUlDwpH7CBld-4" value="Users DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc0kg1THhUlDwpH7CBld-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dc0kg1THhUlDwpH7CBld-5" target="Dc0kg1THhUlDwpH7CBld-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc0kg1THhUlDwpH7CBld-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dc0kg1THhUlDwpH7CBld-5" target="Dc0kg1THhUlDwpH7CBld-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc0kg1THhUlDwpH7CBld-5" value="Log-in Procedure" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc0kg1THhUlDwpH7CBld-14" value="&lt;div&gt;Send username and hashed password to backend&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;" vertex="1" parent="1">
+          <mxGeometry x="210" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc0kg1THhUlDwpH7CBld-15" value="Return login success - true or false" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="210" y="570" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc0kg1THhUlDwpH7CBld-16" value="Query for record containing username" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc0kg1THhUlDwpH7CBld-17" value="Return row containing username and password" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc0kg1THhUlDwpH7CBld-18" value="Receive username and hashed password from log-in page, query for hashed password for the user in Users DB, compare, send back login success status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="339" y="390" width="150" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
