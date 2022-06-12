@@ -1,15 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-06-12T18:11:49.006Z" agent="5.0 (Windows)" etag="bFwk1ZMJDrmF0N_h1CRX" version="20.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-12T20:42:04.603Z" agent="5.0 (Windows)" etag="D2sKEipmXvKjsisZ466J" version="20.0.0" type="github">
   <diagram id="yQDdEbPtrPQwiZkuuEwM" name="Page-1">
     <mxGraphModel dx="1421" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Dc0kg1THhUlDwpH7CBld-1" value="FRONTEND" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Dc0kg1THhUlDwpH7CBld-2" value="BACKEND" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="120" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Dc0kg1THhUlDwpH7CBld-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dc0kg1THhUlDwpH7CBld-3" target="Dc0kg1THhUlDwpH7CBld-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
